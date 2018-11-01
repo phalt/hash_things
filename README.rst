@@ -49,7 +49,7 @@ Full blown example:
 ---------------
 
 - Objects of any type
-- _You favourite type here_
+- *You favourite type here*
 
 🏗 Status
 ----------
