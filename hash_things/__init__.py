@@ -4,6 +4,6 @@
 
 __author__ = """Paul Hallett"""
 __email__ = 'paulandrewhallett@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 from .hash_dict import hash_dict  # noqa
