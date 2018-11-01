@@ -16,7 +16,7 @@ def hash_dict(data: Dict) -> int:
     def _clean_dict(data: Dict) -> Dict:
         d: Dict = {}
         for k, v in data.items():
-            if isinstance(v, list):
+            if isinstance(v, list) or isinstance(v, set):
                 d[k] = tuple(v)
             elif isinstance(v, dict):
                 d[k] = hash_dict(v)

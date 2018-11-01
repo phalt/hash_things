@@ -14,6 +14,7 @@ from hash_things import hash_dict
         {'foo': {'bar': 'two'}},  # Dict of dicts is supported
         {'foo': ['bar', 'two']},  # Lists should be supported
         {'foo': ('bar', 'foo')},  # Tuples should be supported
+        {'foo': {'bar', 'ham'}},  # Sets should be supported too
     ],
 )
 def test_hash_dict(input_dict):
