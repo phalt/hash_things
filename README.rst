@@ -61,6 +61,4 @@ hash_things is currently stable.
 
 This package was created with Cookiecutter_.
 
-We use `Python Requests`_ for talking HTTP.
-
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
